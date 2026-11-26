@@ -96,9 +96,9 @@ body {
   /* Imagem de fundo com gradiente escuro e transparência sutil */
   background-image: linear-gradient(
       to right,
-      rgba(15, 23, 42, 0.94) 30%, 
-      rgba(15, 23, 42, 0.85) 70%, 
-      rgba(15, 23, 42, 0.94) 100%
+     rgba(15, 23, 42, 0.75) 30%,
+    rgba(15, 23, 42, 0.55) 70%,
+    rgba(15, 23, 42, 0.75) 100%
     ),
     url("../images/tech-bg.jpeg");
   background-size: cover;
