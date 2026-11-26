@@ -2,10 +2,10 @@
 :root {
   --bg-main: #ffffff;
   --bg-alt: #f8fafc;
-  --text-main: #0f172a;
-  --text-muted: #475569;
-  --primary: #2563eb;
-  --primary-dark: #1d4ed8;
+  --text-main: #240f2a;
+  --text-muted: #8f369f;
+  --primary: #8a1fc3;
+  --primary-dark: #d81db3;
   --border: #e2e8f0;
   --radius: 10px;
 }
