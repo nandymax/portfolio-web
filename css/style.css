@@ -2,10 +2,10 @@
 :root {
   --bg-main: #ffffff;
   --bg-alt: #f8fafc;
-  --text-main: #240f2a;
-  --text-muted: #8f369f;
-  --primary: #8a1fc3;
-  --primary-dark: #d81db3;
+  --text-main: #2d1135;
+  --text-muted: #6a0a7b;
+  --primary: #5f006c;
+  --primary-dark: #702261;
   --border: #e2e8f0;
   --radius: 10px;
 }
@@ -304,7 +304,7 @@ body {
 }
 
 .footer p {
-  color: #94a3b8;
+  color: #b894b4;
   margin: 0.75rem 0 1.5rem;
 }
 
@@ -322,12 +322,12 @@ body {
 }
 
 .footer-links a:hover {
-  color: #60a5fa;
+  color: #ba60fa;
 }
 
 .copyright {
   font-size: 0.85rem;
-  border-top: 1px solid #1e293b;
+  border-top: 1px solid #381e3b;
   padding-top: 1.5rem;
 }
 
