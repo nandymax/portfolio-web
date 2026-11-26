@@ -91,37 +91,36 @@ body {
 
 /* Seção Hero */
 .hero {
-  padding: 4.5rem 0;
+  position: relative;
+  padding: 5.5rem 0;
+  /* Imagem de fundo com gradiente escuro e transparência sutil */
+  background-image: linear-gradient(
+      to right,
+      rgba(15, 23, 42, 0.94) 30%, 
+      rgba(15, 23, 42, 0.85) 70%, 
+      rgba(15, 23, 42, 0.94) 100%
+    ),
+    url("../images/tech-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff; /* Texto branco para dar contraste sobre o fundo escuro */
 }
 
-.badge {
-  display: inline-block;
-  background: #eff6ff;
-  color: var(--primary);
-  font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0.35rem 0.85rem;
-  border-radius: 999px;
-  margin-bottom: 1rem;
-}
-
+/* Garante contraste para os textos do Hero se seu fundo era claro */
 .hero h1 {
-  font-size: 2.1rem;
-  line-height: 1.2;
-  margin-bottom: 1rem;
-}
-
-.hero h1 span {
-  color: var(--primary);
+  color: #ffffff;
 }
 
 .hero p {
-  color: var(--text-muted);
-  max-width: 620px;
-  font-size: 1.05rem;
-  margin-bottom: 2rem;
+  color: #94a3b8; /* Cinza claro suave */
 }
 
+.badge {
+  background: rgba(37, 99, 235, 0.2);
+  color: #60a5fa;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+}
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
