@@ -183,6 +183,31 @@ btn-outline {
 }
 
 /* Grid de Projetos */
+.projetos {
+  padding: 5rem 0;
+  background-image: linear-gradient(
+      to right,
+      rgba(15, 23, 42, 0.82) 25%,
+      rgba(15, 23, 42, 0.68) 75%,
+      rgba(15, 23, 42, 0.82) 100%
+    ),
+    url("../images/projetos-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #ffffff;
+}
+
+.projetos h2 {
+  color: #ffffff;
+}
+
+/* Mantém os cartões legíveis e com bom contraste sobre o fundo escuro */
+.projetos .card,
+.projeto-card {
+  background-color: #ffffff;
+  color: #0f172a;
+}
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
