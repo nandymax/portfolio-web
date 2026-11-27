@@ -201,6 +201,9 @@ btn-outline {
 .projetos h2 {
   color: #ffffff;
 }
+.projetos .section-subtitle {
+  color: #cbd5e1;
+}
 
 /* Mantém os cartões legíveis e com bom contraste sobre o fundo escuro */
 .projetos .card,
