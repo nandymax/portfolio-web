@@ -146,12 +146,23 @@ body {
 }
 
 btn-outline {
-  background: var(--outline);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #12098f;
   color: #ffffff;
+  border: 2px solid #12098f;
+  border-radius: 8px;
+  padding: 0.75rem 1.35rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .btn-outline:hover {
-   background: var(--outline-dark);
+   background-color: #1b10b8;
+  border-color: #1b10b8;
+  color: #ffffff;
 }
 /* Seções Gerais */
 .section {
