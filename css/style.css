@@ -170,23 +170,35 @@ btn-outline {
 }
 
 .section-alt {
-  position: relative;
+ position: relative;
   overflow: hidden;
+  padding: 5rem 0;
+  /* Gradiente suave e translúcido cobrindo todo o fundo sobre a imagem de código */
   background-image: linear-gradient(
-      to right,
-      rgba(255, 255, 255, 0.98) 45%,
-      rgba(255, 255, 255, 0.78) 72%,
-      rgba(255, 255, 255, 0.45) 100%
+      rgba(255, 255, 255, 0.88),
+      rgba(255, 255, 255, 0.88)
     ),
     url("../images/sobre-code-bg.jpg");
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   background-repeat: no-repeat;
 }
+/* Garante que o texto fique bem nítido sobre o padrão */
 
 .section-alt .container {
   position: relative;
   z-index: 1;
+}
+
+
+.section-alt h2 {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.section-alt p {
+  color: #334155;
+  line-height: 1.7;
 }
 
 .section h2 {
